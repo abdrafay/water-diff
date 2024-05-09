@@ -21,8 +21,8 @@
             "datatype": "img", 
             "l_resolution": 16, // low resolution need to super_resolution
             "r_resolution": 256, // high resolution
-            "batch_size": 1,
-            "num_workers": 8,
+            "batch_size": 4,
+            "num_workers": 4,
             "use_shuffle": true,
             "data_len": -1 // -1 represents all data used in train
         },
@@ -78,9 +78,9 @@
         }
     },
     "train": {
-        "n_iter": 10000000,
-        "val_freq": 50000,
-        "save_checkpoint_freq": 50000,
+        "n_iter": 2000,
+        "val_freq": 500,
+        "save_checkpoint_freq": 1000,
         // "val_freq": 200,
         // "save_checkpoint_freq": 200,
         "print_freq": 200,

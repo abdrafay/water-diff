@@ -17,7 +17,7 @@
         "train": {
             "name": "LSUI",
             "mode": "HR", 
-            "dataroot": "the path of your train data",
+            "dataroot": "/kaggle/working/water-diff/dataset/water_train_16_256",
             "datatype": "img", 
             "l_resolution": 16, // low resolution need to super_resolution
             "r_resolution": 256, // high resolution
